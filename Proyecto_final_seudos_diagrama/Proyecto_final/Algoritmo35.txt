@@ -1,0 +1,31 @@
+Algoritmo35
+
+Inicio
+//Lectura de datos y declaracion de varibles
+A = 100 ;
+Leer cuenta ;
+Leer propina ;
+//Calculos
+monto_propina = cuenta * propina / A ;
+total_pagar = cuenta + monto_propina ;
+//Evaluación para decidir qué mostrar
+Si (propina >= 0 AND propina <= 30) entonces ;
+Escribir "--- DESGLOSE ---";
+Escribir "Cuenta original: " + cuenta;
+Escribir "Porcentaje: " + propina + "%";
+Escribir "Monto de la propina: " + monto_propina;
+Escribir "Total a pagar: " + total_pagar;
+//Parte de par o impar
+Si (parte_entera mod 2 == 0) entonces ;
+parte_entera = total_pagar ;
+Escribir "El total entero es PAR" ;
+SiNo ;
+Escribir "El total entero es IMPAR" ;
+FinSi ;
+SiNo ;
+Escribir "Error: La propina debe estar entre 0 y 30" ;
+FinSi ;
+Fin
+
+
+

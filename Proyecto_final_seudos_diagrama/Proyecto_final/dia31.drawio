@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="oxMiwd6fsmeNISYDNnxq">
+    <mxGraphModel dx="1456" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FLdzoLpS97Pipol53FTt-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Final" vertex="1">
+          <mxGeometry height="80" width="120" x="335" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="w6vd7b0wR4-XcgfOkjx7-2" edge="1" parent="1" source="FLdzoLpS97Pipol53FTt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w6vd7b0wR4-XcgfOkjx7-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;text-decoration-line: inherit;&quot;&gt;Leer arista ;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;Escribir &quot;Calculo del volumen de un cubo.&quot;;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="300" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-16" edge="1" parent="1" source="FLdzoLpS97Pipol53FTt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="FLdzoLpS97Pipol53FTt-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;volumen = arista ^ EXPONENTE ;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="495" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-14" edge="1" parent="1" source="FLdzoLpS97Pipol53FTt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="FLdzoLpS97Pipol53FTt-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-17" edge="1" parent="1" source="FLdzoLpS97Pipol53FTt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="FLdzoLpS97Pipol53FTt-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="¿arista&amp;gt;0?" vertex="1">
+          <mxGeometry height="110" width="110" x="335" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-7" edge="1" parent="1" source="FLdzoLpS97Pipol53FTt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="FLdzoLpS97Pipol53FTt-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-15" edge="1" parent="1" source="FLdzoLpS97Pipol53FTt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="FLdzoLpS97Pipol53FTt-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Escribir &quot;Es positivo&quot; ;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="520" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-21" edge="1" parent="1" source="FLdzoLpS97Pipol53FTt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.034;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" target="FLdzoLpS97Pipol53FTt-1">
+          <mxGeometry relative="1" x="-0.294" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="617.7" />
+            </Array>
+            <mxPoint x="240" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Es negativo&quot;" vertex="1">
+          <mxGeometry height="60" width="160" x="130" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="550" as="sourcePoint" />
+            <mxPoint x="555" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-25" edge="1" parent="1" source="FLdzoLpS97Pipol53FTt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="FLdzoLpS97Pipol53FTt-1">
+          <mxGeometry relative="1" x="-0.2727" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="610" />
+            </Array>
+            <mxPoint x="520" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;El volumen es: &quot; + volumen ;" vertex="1">
+          <mxGeometry height="60" width="150" x="520" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si" vertex="1">
+          <mxGeometry height="30" width="60" x="453" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="FLdzoLpS97Pipol53FTt-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="w6vd7b0wR4-XcgfOkjx7-3" edge="1" parent="1" source="w6vd7b0wR4-XcgfOkjx7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="FLdzoLpS97Pipol53FTt-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6vd7b0wR4-XcgfOkjx7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;EXPONENTE = 3;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

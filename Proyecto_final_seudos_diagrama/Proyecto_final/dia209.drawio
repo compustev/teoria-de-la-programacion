@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="BKVeGavfiPEVG6qN0BiP">
+    <mxGraphModel dx="1243" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-19" edge="1" parent="1" source="oTKu8ra5UyOAEIkGgnf2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oTKu8ra5UyOAEIkGgnf2-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="120" x="290" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Fin" vertex="1">
+          <mxGeometry height="80" width="120" x="285" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-14" edge="1" parent="1" source="oTKu8ra5UyOAEIkGgnf2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oTKu8ra5UyOAEIkGgnf2-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="valor = &quot;error&quot; ;" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-17" edge="1" parent="1" source="oTKu8ra5UyOAEIkGgnf2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oTKu8ra5UyOAEIkGgnf2-6">
+          <mxGeometry relative="1" x="-0.0567" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="480" />
+              <mxPoint x="345" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;valor = &quot;valido&quot; ;&lt;/div&gt;&lt;div&gt;densidad = (masa / volumen) ;&lt;/div&gt;&lt;div&gt;log_densidad = log10(densidad) ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="60" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-20" edge="1" parent="1" source="oTKu8ra5UyOAEIkGgnf2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oTKu8ra5UyOAEIkGgnf2-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Escribir &quot;--------------------------------------------------&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RESUMEN DE DATOS&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;--------------------------------------------------&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Masa ingresada (g): &quot; + masa + &quot;g&quot;;&lt;/div&gt;&lt;div&gt;Escribir &quot;Volumen ingresado (cm3): &quot; + volumen + &quot;cm3&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Densidad calculada (g/cm3): &quot; + densidad + &quot;g/cm3&quot;;&lt;/div&gt;&lt;div&gt;Escribir &quot;Logaritmo base 10 de la densidad: &quot; + log_densidad ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Estado: %s\n&quot; + valor ;&lt;/div&gt;&lt;div&gt;Escribir &quot;--------------------------------------------------&quot; ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="370" x="160" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-10" edge="1" parent="1" source="oTKu8ra5UyOAEIkGgnf2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oTKu8ra5UyOAEIkGgnf2-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Leer masa ;&lt;/div&gt;&lt;div&gt;Leer volumen ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-11" edge="1" parent="1" source="oTKu8ra5UyOAEIkGgnf2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oTKu8ra5UyOAEIkGgnf2-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-16" connectable="0" parent="oTKu8ra5UyOAEIkGgnf2-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.25" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-13" edge="1" parent="1" source="oTKu8ra5UyOAEIkGgnf2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oTKu8ra5UyOAEIkGgnf2-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-15" connectable="0" parent="oTKu8ra5UyOAEIkGgnf2-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.2286" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="¿volumen &amp;gt; 0?" vertex="1">
+          <mxGeometry height="80" width="80" x="310" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-18" edge="1" parent="1" source="oTKu8ra5UyOAEIkGgnf2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="oTKu8ra5UyOAEIkGgnf2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="480" />
+              <mxPoint x="345" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTKu8ra5UyOAEIkGgnf2-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Error: Volumen debe ser mayor a cero&quot; ;" vertex="1">
+          <mxGeometry height="50" width="310" x="365" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

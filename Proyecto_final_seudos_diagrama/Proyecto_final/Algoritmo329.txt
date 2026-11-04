@@ -1,0 +1,24 @@
+Algoritmo329
+Inicio
+/* Se usan identificadores descriptivos y la constante para la conversion
+a kWh, aplicando un descuento del 5% al resultado final. */
+// Constantes y variables
+MIL = 1000 ;
+VALOR_DESCUENTO = 0.05 ;
+// Lectura de variables
+Leer potencia ;
+Leer tiempo ;
+// Calculo de la energia consumida en kWh usando la constante literal de conversion
+energia_kwh = (potencia * tiempo) / MIL ;
+// Evaluacion logica requerida
+Si (energia_kwh > 0) entonces ;
+// Calculo del descuento del 5% y del resultado final
+descuento = energia_kwh * VALOR_DESCUENTO ;
+resultado_final = energia_kwh - descuento ;
+// Muestra de resultados por pantalla
+Escribir "El consumo en kWh es: " + energia_kwh ;
+Escribir "El resultado final con el descuento aplicado es: " + resultado_final ;
+SiNo ;
+Escribir "Error: El consumo de energia debe ser mayor a cero." ;
+FinSi ;
+Fin

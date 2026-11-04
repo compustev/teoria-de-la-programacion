@@ -1,0 +1,41 @@
+Algoritmo182
+Inicio
+//DESCRIPCIÓN DE PASOS A SEGUIR:
+//1. Definir las constantes simbolicas de la tienda de electronica.
+//2. Leer los datos del cliente (monto anual, frecuencia, antiguedad y devoluciones).
+//3. Evaluar expresiones logicas compuestas para clasificar al cliente en VIP, Regular u Ocasional.
+//4. Calcular el resultado final aplicando un descuento del 5% al monto de compras.
+//5. Mostrar por pantalla la categoria asignada y los valores calculados.
+
+//Definicion de constantes simbolicas y declaracion de variables 
+UMBRAL_VIP = 5000 ;
+FREQ_MIN = 12 ;
+ANTIGUEDAD_MIN = 3 ;
+DEVOLUCIONES_MAX = 5 ;
+
+//Lectura de datos del cliente
+Leer monto_compras_anual ;
+Leer frecuencia_compra ;
+Leer antiguedad ;
+Leer devoluciones ;
+
+//Evaluacion de expresiones logicas compuestas para la clasificacion
+Si (monto_compras_anual >= UMBRAL_VIP) Y (frecuencia_compra >= FREQ_MIN) Y (antiguedad >= ANTIGUEDAD_MIN) Y (devoluciones <= DEVOLUCIONES_MAX) entonces ;
+categoria = "VIP" ;
+Sino ; 
+//Si no cumple para VIP, evaluamos criterios para la categoria Regular
+Si (monto_compras_anual >= 2000) Y (frecuencia_compra >= 6) Y (devoluciones <= DEVOLUCIONES_MAX) entonces ;
+categoria = "Regular" ;
+Sino ; 
+// Si no cumple con los anteriores, se clasifica como Ocasional
+categoria = "Ocasional" ;
+FinSi ;
+FinSi ;
+// Cálculo del resultado final restando un descuento del 5% (0.95)
+monto_final = monto_compras_anual * 0.95 ;
+// Mostrar los resultados por pantalla
+Escribir "--- CLASIFICACIÓN DE LA TIENDA DE ELECTRONICA ---" ;
+Escribir "Categoria del cliente: " + categoria ;
+Escribir "Monto de compras anual original: " + monto_compras_anual ;
+Escribir "Resultado final con 5% de descuento: " + monto_final ;
+Fin

@@ -1,0 +1,30 @@
+Algoritmo404
+Inicio
+/* Se disenja un algoritmo para calcular el interes y el monto total
+en una libreria, utilizando una constante literal para el porcentaje
+y evaluando si el resultado es par o impar. */
+Escribir "=== SISTEMA DE CALCULO DE INTERES - LIBRERIA ===" ;
+// Constante y cabecera descriptiva
+CIEN = 100 ;
+// Lectura de variables
+Leer capital ;
+Leer tasa ;
+Leer tiempo ;
+// Verificacion de rango para las variables de entrada
+Si (capital > 0 Y tasa > 0 Y tiempo > 0) entonces ;
+// Calculo del interes y monto total
+interes_generado = (capital * tasa * tiempo) / CIEN ;
+monto_total = capital + interes_generado ;
+// Muestra del desglose por pantalla
+Escribir "El interes generado es: " + interes_generado ;
+Escribir "El monto total es: " + monto_total ;
+// Determinacion si el resultado es par o impar
+Si ((monto_total % 2) == 0) entonces ;
+Escribir "El monto total es un numero par." ;
+SiNo ;
+Escribir "El monto total es un numero impar." ;
+FinSi ;
+SiNo ;
+Escribir "Error: Los valores ingresados deben ser mayores a cero." ;
+FinSi ;  
+Fin

@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="FRdweWNSzwLHfsEeULiy">
+    <mxGraphModel dx="1500" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Fin" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-11" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="120" x="310" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-12" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="A = 100 ;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-16" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-17" connectable="0" parent="agFt-iYaWxzwwRDR3DN4-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.2051" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-18" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-19" connectable="0" parent="agFt-iYaWxzwwRDR3DN4-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.2222" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="¿descuento &amp;gt;= 0 AND descuento &amp;lt;= 100?" vertex="1">
+          <mxGeometry height="90" width="160" x="290" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-21" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Su descuento es de :&quot; + porcentaje +&quot;%&quot;;" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-15" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;monto_descuento = precio * ( descuento / A ) ;&lt;/div&gt;&lt;div&gt;precio_final = precio - monto_descuento ;&lt;/div&gt;&lt;div&gt;suma_acumulada = monto_descuento + precio ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="220" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-22" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;No tiene descunto&quot; ;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-14" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Leer precio;&lt;/div&gt;&lt;div&gt;Leer porcentaje ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-20" edge="1" parent="1" source="agFt-iYaWxzwwRDR3DN4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="agFt-iYaWxzwwRDR3DN4-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agFt-iYaWxzwwRDR3DN4-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Escribir &quot;---------------------------&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; DESGLOSE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;---------------------------&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;El precio original es:&quot; + precio ;&lt;/div&gt;&lt;div&gt;Escribir &quot;El porcentaje de descuento es :&quot; + porcentaje + &quot;%&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;El monto del descuento es :&quot; + monto_descuento ;&lt;/div&gt;&lt;div&gt;Escribir &quot;La suma acumulada es :&quot; + suma_acumulada ;&lt;/div&gt;&lt;div&gt;Escribir &quot;El precio final es :&quot; + precio_final ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="480" x="140" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,31 @@
+Algoritmo320
+Inicio
+/* Se usan constantes simbolicas para las horas normales limite y el factor extra
+para evitar numeros magicos y facilitar modificaciones futuras en la politica salarial. */
+// Constantes simbolicas
+HORAS_NORMALES = 40 ;
+FACTOR_EXTRA = 1.5 ;
+// Lectura de variables
+Leer horas ;
+Leer pago_hora ;
+// Determinacion inicial del valor maximo entre las entradas
+valor_maximo = horas ;
+Si (pago_hora > valor_maximo) entonces ;
+valor_maximo = pago_hora ;
+FinSi ;
+// Evaluacion relacional y calculo del salario
+Si (horas > HORAS_NORMALES) entonces ;
+salario = (HORAS_NORMALES * pago_hora) + ((horas - HORAS_NORMALES) * pago_hora * FACTOR_EXTRA) ;
+SiNo ;
+salario = horas * pago_hora ;
+FinSi ;
+// Actualizacion del valor maximo considerando el salario calculado
+Si (salario > valor_maximo) entonces ;
+valor_maximo = salario ;
+FinSi ;
+// Muestra de resultados por pantalla
+Escribir "El salario total es: " + salario ;
+Escribir "El valor maximo de las variables utilizadas es: " + valor_maximo ;
+Fin
+
+
