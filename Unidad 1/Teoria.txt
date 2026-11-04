@@ -1,0 +1,17 @@
+Teoría de la programación
+
+- Crea un repositorio en GitHub desde el navegador con todo lo que se ve en la imagen (el nombre puede ser otro).
+- Crea una carpeta cualquiera en el escritorio.
+- Presiona Win + R, escribe cmd y presiona Enter para abrir la consola.
+- Escribe cd Desktop y presiona Enter.
+- Escribe cd y el nombre de la carpeta que creaste.
+- En GitHub abre tu repositorio, toca el botón verde Code y copia la URL de HTTPS.
+- En la consola escribe git clone y el enlace copiado. Se copiará el repositorio en tu carpeta; ahí puedes crear otra carpeta para la unidad 1.
+- Escribe cd y entra a la carpeta del repositorio.
+- Ejecuta git status.
+- Ejecuta git add .
+- Ejecuta git status otra vez para ver si se agregó.
+- Ejecuta git commit -am "ya se subió tarea".
+- Configura tu correo y nombre con git config --global user.email y user.name.
+- Ejecuta git push -f origin main.
+- Inicia sesión con Sign in, autoriza en el navegador y recarga GitHub: la carpeta ya estará subida.
