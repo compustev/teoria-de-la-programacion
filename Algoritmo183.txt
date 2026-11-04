@@ -1,0 +1,52 @@
+Algoritmo183
+
+Inicio
+
+//DESCRIPCIÓN DE PASOS A SEGUIR:
+//1. Mostrar mensaje de bienvenida personalizado de la agencia de viajes.
+//2. Definir las constantes simbolicas (factores de uso y tasa de degradacion mensual).
+//3. Leer los datos de la bateria (capacidad, consumo promedio, tipo de uso y edad).
+//4. Asignar el factor correspondiente segun el tipo de uso ('R', 'N', 'I').
+//5. Calcular la duracion estimada aplicando la formula de capacidad, degradacion y consumo.
+//6. Aplicar el descuento/ajuste del 5% al resultado final.
+//7. Mostrar por pantalla los resultados y la duración estimada.
+
+// Mensaje de bienvenida personalizado
+Escribir "-------------------------------------------------------" ;
+Escribir "  BIENVENIDO A LA AGENCIA DE VIAJES - SOPORTE TECNICO  " ;
+Escribir "-------------------------------------------------------" ;
+
+//Definición de constantes simbólicas
+FACTOR_REPOSO = 0.5 ;
+FACTOR_NORMAL = 1.0 ;
+FACTOR_INTENSIVO = 2.5 ;
+DEGRADACION_MENSUAL = 0.02 ;
+
+//Lectura y declaracion 
+Leer capacidad ;
+Leer consumo_promedio ;
+Leer tipo_uso ;
+Leer edad ;
+//Asignacion del factor segun el tipo de uso mediante condicionales
+Si (tipo_uso == 'R')  entonces ;
+factor = FACTOR_REPOSO ;
+SiNo ; 
+Si (tipo_uso == 'N') entonces ;
+factor = FACTOR_NORMAL ;
+SiNo ;
+ Si (tipo_uso == 'I')  entonces ;
+factor = FACTOR_INTENSIVO ;
+SiNo ;
+factor = FACTOR_NORMAL ; // Valor por defecto si ingresa otra letra
+FinSi ;
+FinSi ;
+FinSi ;
+//Calculo aritmetico de la duracion estimada de la bateria
+duracion = (capacidad * (1 - (edad * DEGRADACION_MENSUAL))) / (consumo_promedio * factor) ;
+// Aplicar descuento del 5% al resultado final
+duracion_des = duracion * 0.95 ;
+//Mostrar los resultados por pantalla
+Escribir "        REPORTE DE DURACION DE BATERIA            " ;
+Escribir "Duracion estimada base (horas): " + duracion ;
+Escribir "Duracion final con ajuste del 5%: " + duracion_des ;
+Fin

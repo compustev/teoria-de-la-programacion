@@ -1,0 +1,33 @@
+Algoritmo406
+
+Inicio
+/* Se usa una constante simbolica para la equivalencia de la onza a gramos,
+evitando numeros magicos y facilitando la conversion y el calculo del inverso multiplicativo. */
+// Constante simbolica y variables
+ONZA_GRAMO = 28.3495 ;
+// Lectura de variables
+Leer onzas ;
+// Verificacion relacional de entrada
+Si (onzas > 0) entonces ;
+// Calculo principal de la equivalencia en gramos
+gramos = onzas * ONZA_GRAMO ;
+// Evaluacion relacional requerida
+Si (gramos > 0) entonces ;
+// Calculo del inverso multiplicativo
+inverso = 1 / gramos ;
+// Muestra de resultados por pantalla
+Escribir onzas + " onzas equivalen a " + gramos + " gramos" ;
+Escribir "El inverso multiplicativo es: " + inverso ;
+// Muestra de tabla simulada con los datos y resultados
+Escribir "----------------------------------------" ;
+Escribir "| ONDAS (oz) | GRAMOS (g) | INVERSO    |" ;
+Escribir "----------------------------------------" ;
+Escribir "| " + onzas + " | " + gramos + " | " + inverso + " |" ;
+Escribir "----------------------------------------" ;
+SiNo ;
+Escribir "Error: El resultado en gramos no es valido." ;
+FinSi ;
+SiNo ;
+Escribir "Error: El peso en onzas debe ser mayor a cero." ;
+FinSi ;
+Fin

@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="omY__1iT2xmVdD6eTX6N">
+    <mxGraphModel dx="2548" dy="2414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ap1bSeNCyThbIznBaXmR-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Fin" vertex="1">
+          <mxGeometry height="80" width="120" x="353.5" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-10" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-15" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Escribir &quot;--- EVALUACION DE CREDITO HIPOTECARIO ---&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Estado del Credito: &quot; + estado_credito ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Monto del credito solicitado: &quot; + monto_credito ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Monto del credito con 5% de descuento promocional: &quot; + monto_final ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Cuota mensual estimada: &quot; + cuota_mensual ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Ratio de endeudamiento: &quot; + ratio_endeudamiento ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Compromisos financieros actuales:&quot; + compromisos ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="155" width="615" x="106" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-30" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Escribir &quot;--------------------------------------------------&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CONCLUSIONES&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;--------------------------------------------------&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;1. La viabilidad del credito depende estrictamente de que el ratio&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;&amp;nbsp; &amp;nbsp;de endeudamiento total no supere el limite maximo del 40%.&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;2. Un enganche adecuado (mayor o igual al 20%) reduce significativamente&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;&amp;nbsp; &amp;nbsp;el riesgo financiero y la cuota mensual a pagar.&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;3. El cumplimiento de los ingresos minimos garantiza la capacidad&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;&amp;nbsp; &amp;nbsp;de pago a largo plazo frente a otros compromisos de deuda.&quot; ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="155" width="715" x="56" y="962.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-12" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Leer ingreso_mensual ;&lt;/div&gt;&lt;div&gt;Leer val_inmueble ;&lt;/div&gt;&lt;div&gt;Leer enganche ;&lt;/div&gt;&lt;div&gt;Leer plazo ;&lt;/div&gt;&lt;div&gt;Leer interes ;&lt;/div&gt;&lt;div&gt;Leer compromisos ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="315" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="estado_credito = &quot;APROBADO&quot; ;" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-18" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;monto_credito = val_inmueble - enganche ;&lt;/div&gt;&lt;div&gt;meses_totales = plazo * MESES_YEAR ;&lt;/div&gt;&lt;div&gt;tasa_mensual = (interes / 100) / MESES_YEAR ;&lt;/div&gt;&lt;div&gt;cuota_mensual = (monto_credito * tasa_mensual) / (1 - (1 + tasa_mensual) ^ (-meses_totales)) ;&lt;/div&gt;&lt;div&gt;ratio_endeudamiento = (cuota_mensual + compromisos) / ingreso_mensual ;&lt;/div&gt;&lt;div&gt;monto_final = monto_credito * 0.95 ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="550" x="125" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-11" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;INGRESO_MIN = 1500 ;&lt;/div&gt;&lt;div&gt;ENGANCHE_MIN = 0.20 ;&lt;/div&gt;&lt;div&gt;MAX_DEUDA = 0.40 ;&lt;/div&gt;&lt;div&gt;MESES_YEAR = 12 ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="320" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-20" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-22" connectable="0" parent="ap1bSeNCyThbIznBaXmR-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.1902" y="-12" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-21" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-23" connectable="0" parent="ap1bSeNCyThbIznBaXmR-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.0268" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="¿(ingreso_mensual &amp;gt;= INGRESO_MIN) Y (enganche &amp;gt;= (val_inmueble * ENGANCHE_MIN)) Y (ratio_endeudamiento &amp;lt;= MAX_DEUDA)?" vertex="1">
+          <mxGeometry height="280" width="270" x="265" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="estado_credito = &quot;RECHAZADO&quot; ;" vertex="1">
+          <mxGeometry height="60" width="120" x="651" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-33" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.07;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1bSeNCyThbIznBaXmR-36" edge="1" parent="1" source="ap1bSeNCyThbIznBaXmR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.983;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ap1bSeNCyThbIznBaXmR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

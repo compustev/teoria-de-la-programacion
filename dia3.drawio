@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="mBrkDE8vfzSVry3MXEwE">
+    <mxGraphModel dx="1318" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-6" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="120" x="354" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Fin" vertex="1">
+          <mxGeometry height="80" width="120" x="419" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-7" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PI = 3.14159 ;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-8" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Leer radio ;&lt;/div&gt;&lt;div&gt;Leer divisor;&lt;/div&gt;&lt;div&gt;Leer dividendo ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-10" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="area = PI * radio * radio" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-17" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-24" connectable="0" parent="29EQ7z1Jamktt6KoPLC_-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.3203" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-18" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-23" connectable="0" parent="29EQ7z1Jamktt6KoPLC_-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.1189" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="¿divisor != 0?" vertex="1">
+          <mxGeometry height="80" width="80" x="374" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-19" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;p = dividendo / divisor ;&lt;/div&gt;&lt;div&gt;resto = dividendo % divisor ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="146" x="158" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-20" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="231" y="604.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Escribir &quot;El resto de la division es: &quot;, resto ;&lt;/div&gt;&lt;div&gt;Escribir &quot;La division de dividendo entre divisor es: &quot; + dividendo + divisor + p);&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="366" x="48" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-21" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="500" />
+              <mxPoint x="479" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Error: No se puede dividir entre cero.&quot; ;" vertex="1">
+          <mxGeometry height="60" width="270" x="500" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-22" edge="1" parent="1" source="29EQ7z1Jamktt6KoPLC_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="29EQ7z1Jamktt6KoPLC_-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29EQ7z1Jamktt6KoPLC_-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Operacion finalizada con exito.&quot; ;" vertex="1">
+          <mxGeometry height="80" width="250" x="354" y="545" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

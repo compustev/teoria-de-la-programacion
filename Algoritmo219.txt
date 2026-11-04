@@ -1,0 +1,46 @@
+Algoritmo219
+
+Inicio
+//--------------------------------------------
+// DESCRIPCION DE PASOS A SEGUIR:
+// 1. Declarar la constante simbolica PI = 3.14159.
+// 2. Leer el radio y la altura del cilindro (reales).
+// 3. Evaluar la expresion logica (radio > 0 AND altura > 0) para asegurar dimensiones validas.
+// 4. Calcular el volumen con la formula: volumen = PI * radio * radio * altura.
+// 5. Calcular el cuadrado del resultado principal: volumen_cuadrado = volumen * volumen.
+// 6. Mostrar por pantalla el volumen calculado.
+// 7. Mostrar un resumen detallado con los datos ingresados al final.
+//--------------------------------------------
+
+// Constante simbolica
+PI = 3.14159 ;
+
+//Lectura y declaracion de variables
+Leer radio ;
+Leer altura ;
+
+// Evaluacion logica requerida (ambos deben ser mayores a cero)
+es_valido = (radio > 0 AND altura > 0) ;
+Si (es_valido) entonces ;
+volumen = PI * radio * radio * altura ;
+volumen_cuadrado = volumen * volumen ;
+Escribir "El volumen del cilindro es: ", volumen ;
+Escribir "El cuadrado del volumen es: ", volumen_cuadrado ;
+SiNo ;
+volumen = 0 ;
+volumen_cuadrado = 0 ;
+Escribir "Error: El radio y la altura deben ser mayores a cero." ;
+FinSi ;
+
+//Resumen de los datos ingresados al final del algoritmo
+Escribir "--------------------------------------------------" ;
+Escribir "                RESUMEN DE DATOS                  " ;
+Escribir "--------------------------------------------------" ;
+Escribir "Radio ingresado: " + radio ;
+Escribir "Altura ingresada: " + altura ;
+Escribir "Constante PI: " + PI ;
+Escribir "Volumen calculado: " + volumen ;
+Escribir "Volumen elevado al cuadrado: " + volumen_cuadrado ;
+Escribir "--------------------------------------------------" ;
+
+Fin

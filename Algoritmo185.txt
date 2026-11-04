@@ -1,0 +1,79 @@
+Algoritmo185
+Inicio
+// DESCRIPCIÓN DE PASOS A SEGUIR:
+// 1. Definir las constantes simbolicas (precios base por plan, costo por perfil extra y perfiles incluidos).
+// 2. Leer los datos de entrada (numero de servicios, plan, cantidad de perfiles y calidad de video).
+// 3. Evaluar el precio base segun el tipo de plan ('B', 'E', 'P').
+// 4. Calcular el costo de los perfiles adicionales si superan los perfiles incluidos.
+// 5. Calcular el costo total mensual sumando el precio base y los perfiles extra.
+// 6. Aplicar un descuento del 5% al resultado final.
+// 7. Mostrar por pantalla el detalle de los costos y la verificación con valores limite.
+
+// Definicion de constantes simbolicas
+PRECIO_B = 7.99 ;
+PRECIO_E = 11.99 ;
+PRECIO_P = 15.99 ;
+COSTO_PERFIL_EXTRA = 2.0 ;
+PERFILES_INCLUIDOS = 2 ;
+
+//Lectura y declaracion 
+Leer num_servicios ;
+Leer plan ;
+Leer perfiles ;
+Leer calidad ;
+
+// Evaluacion del precio base segun el plan seleccionado
+Si (plan == 'B') entonces ;
+precio_base = PRECIO_B ;
+SiNo ;
+Si (plan == 'E') entonces ;
+precio_base = PRECIO_E ;
+SiNo ;
+Si (plan == 'P') entonces ;
+precio_base = PRECIO_P ;
+Sino ;
+Escribir "Plan no valido. Se asigna el plan Basico por defecto" ;
+precio_base = PRECIO_B ;
+FinSi ;
+FinSi ;
+FinSi ;
+
+//Calidad de video
+Si calidad == 'S' entonces ; 
+Escribir "La calidad de video seleccionada es SD." ;
+SiNo ;
+Si calidad == 'H' entonces ;
+Escribir "La calidad de video seleccionada es HD." ;
+SiNo ;
+Si calidad == '4' entonces ;
+Escribir "La calidad de video seleccionada es 4K." ;
+SiNo ;
+Escribir "Calidad de video no valida. Se asigna SD por defecto." ;
+calidad = 'S' ;
+FinSi ;
+FinSi ;
+FinSi ;
+
+//Calculo de perfiles extra (si la cantidad supera los incluidos)
+Si perfiles > PERFILES_INCLUIDOS entonces ;
+perfiles_extra = perfiles - PERFILES_INCLUIDOS ;
+costo_perfiles = perfiles_extra * COSTO_PERFIL_EXTRA ;
+SiNo ;
+costo_perfiles = 0.0 ;
+FinSi ; 
+
+//Calculo aritmetico del costo mensual total (por servicio) y multiplicado por los servicios contratados
+costo_mensual_unitario = precio_base + costo_perfiles ;
+costo_total = costo_mensual_unitario * num_servicios ;
+
+//Aplicar descuento del 5% al resultado final
+costo_final = costo_total * 0.95 ;
+
+//Mostrar los resultados por pantalla
+Escribir "--- DETALLE DE COSTOS DE STREAMING ---" ;
+Escribir "Numero de servicios contratados: " + num_servicios ;
+Escribir "Costo mensual sin descuento: " + costo_total ;
+Escribir "Costo final con descuento del 5%: " + costo_final ;
+Escribir "Lalidad calidad del video es : " + calidad ;
+Fin
+

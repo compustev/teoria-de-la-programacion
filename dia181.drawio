@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="8SK_a4gR7nHjsVTck3S0">
+    <mxGraphModel dx="2814" dy="1383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Fin" vertex="1">
+          <mxGeometry height="80" width="120" x="369.5" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-5" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="120" x="369.5" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-6" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PORCENTAJE_MAX_VIVIENDA = 0.30 ;PORCENTAJE_MAX_ALIMENTACION = 0.20 ;PORCENTAJE_MIN_AHORRO = 0.10 ;" vertex="1">
+          <mxGeometry height="70" width="260" x="299.5" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-8" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;leer ingreso_total ;&lt;/div&gt;&lt;div&gt;leer gasto_vivienda ;&lt;/div&gt;&lt;div&gt;leer gasto_alimentacion ;&lt;/div&gt;&lt;div&gt;leer gasto_transporte ;&lt;/div&gt;&lt;div&gt;leer gasto_educacion ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="270" x="294.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-37" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;suma_gastos = gasto_vivienda + gasto_alimentacion + gasto_transporte + gasto_educacion ;&lt;/div&gt;&lt;div&gt;ahorro = (ingreso_total - suma_gastos) ;&lt;/div&gt;&lt;div&gt;presupuesto = gasto_vivienda + gasto_alimentacion + gasto_transporte + gasto_educacion;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;presupuesto_des = presupuesto * 0.95 ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="510" x="174.5" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-30" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Escribir &quot;--- PRESUPUESTO FAMILIAR ---&quot; ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Presupuesto total (suma de gastos): &quot; + presupuesto ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Presupuesto con el 5% de descuento: &quot; + presupuesto_des ;&lt;/div&gt;&lt;div&gt;Escribir &quot;Ahorro calculado: &quot; + ahorro ;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="400" x="229.5" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-31" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="960" />
+              <mxPoint x="650" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-36" connectable="0" parent="2Eunh5yKbIzvgy9glG2b-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.3072" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-44" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="¿ahorro &amp;lt; (ingreso_total * PORCENTAJE_MIN_AHORRO)?" vertex="1">
+          <mxGeometry height="160" width="214" x="330" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-21" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-23" connectable="0" parent="2Eunh5yKbIzvgy9glG2b-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1736" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-38" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-19" value="">
+          <mxGeometry relative="1" x="0.0032" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-39" connectable="0" parent="2Eunh5yKbIzvgy9glG2b-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.4178" y="2" as="geometry">
+            <mxPoint x="-14" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="¿gasto_vivienda &amp;gt; (ingreso_total * PORCENTAJE_MAX_VIVIENDA)?" vertex="1">
+          <mxGeometry height="170" width="229" x="315" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-27" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-34" connectable="0" parent="2Eunh5yKbIzvgy9glG2b-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.2179" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-28" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-33" connectable="0" parent="2Eunh5yKbIzvgy9glG2b-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Si" vertex="1">
+          <mxGeometry relative="1" x="-0.0321" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="¿gasto_alimentacion &amp;gt; (ingreso_total * PORCENTAJE_MAX_ALIMENTACION)?" vertex="1">
+          <mxGeometry height="170" width="250" x="299.5" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-13" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;El ahorro es inferior al 10% minimo requerido.&quot; ;" vertex="1">
+          <mxGeometry height="70" width="140" x="65" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;El ahorro cumple con la meta minima requerida.&quot; ;" vertex="1">
+          <mxGeometry height="70" width="140" x="700" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-62" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Gasto de alimento esta dentro del presupuesto&quot; ;" vertex="1">
+          <mxGeometry height="60" width="140" x="687" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-58" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Gasto de alimento se excede al presupuesto&quot; ;" vertex="1">
+          <mxGeometry height="50" width="130" x="65" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-56" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Gasto de vivienda&amp;nbsp; esta dentro del presupuesto&quot; ;" vertex="1">
+          <mxGeometry height="85" width="180" x="629.5" y="481.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-55" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escribir &quot;Gasto de vivienda se excede al presupuesto&quot; ;" vertex="1">
+          <mxGeometry height="100" width="180" x="49.5" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si" vertex="1">
+          <mxGeometry height="30" width="60" x="210" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-48" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-60" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.527;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Eunh5yKbIzvgy9glG2b-63" edge="1" parent="1" source="2Eunh5yKbIzvgy9glG2b-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.539;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="2Eunh5yKbIzvgy9glG2b-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

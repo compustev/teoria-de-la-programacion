@@ -1,0 +1,20 @@
+Algoritmo325
+Inicio
+/* Constante simbolica para fijar el valor de referencia
+evitando numeros magicos y permitiendo cambiar la base de comparacion. */
+
+// Constante simbolica y literal
+VALOR_REF = 50.0 ;  
+// Lectura de variables
+Leer total ;
+Leer parte ;
+// Evaluacion logica para evitar division entre cero o valores negativos
+Si (total > 0) entonces ;      
+porcentaje = (parte / total) * 100 ;
+porcentaje_referencia = (porcentaje / VALOR_REF) * 100 ;
+Escribir "El porcentaje calculado es: " + porcentaje + "%" ;
+Escribir "El porcentaje respecto al valor de referencia es: " + porcentaje_referencia + "%" ;
+Sino ;
+Escribir "Error: La cantidad total debe ser mayor a cero." ;
+FinSi ;
+Fin
